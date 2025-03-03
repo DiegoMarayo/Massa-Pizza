@@ -27,8 +27,10 @@ function calcularMassa() {
         Fermento: ${fermentoCalculado.toFixed(2)} g
     `;
 }
+
+
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/service-worker.js')
-        .then(() => console.log('Service Worker registrado!'))
-        .catch((err) => console.log('Erro no registro:', err));
+        .then(reg => console.log('Service Worker registrado!', reg))
+        .catch(err => console.error('Erro no registro do Service Worker:', err));
 }
