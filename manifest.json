@@ -2,7 +2,7 @@
 {
   "name": "Calculadora Pizza Napolitana",
   "short_name": "Calculadora Pizza Napolitana",
-  "start_url": "https://diegomarayo.github.io//index.html",
+  "start_url": "https://diegomarayo.github.io/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
