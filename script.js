@@ -27,8 +27,6 @@ function calcularMassa() {
         Fermento: ${fermentoCalculado.toFixed(2)} g
     `;
 }
-    navigator.serviceWorker.register('/service-worker.js'); // Se estiver na raiz
-    navigator.serviceWorker.register('/pasta/service-worker.js'); // Se estiver em uma pasta
 
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/service-worker.js')
