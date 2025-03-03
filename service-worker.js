@@ -4,11 +4,11 @@ self.addEventListener('install', (event) => {
         caches.open('meu-pwa-cache').then((cache) => {
             return cache.addAll([
                 '/',
-                '/index.html',
+                'https://diegomarayo.github.io/service-worker.js',
                 '/styles.css',
                 '/script.js',
-                '/icone-192.png',
-                '/icone-512.png'
+                '/icon-192.png',
+                '/icon-512.png'
             ]);
         })
     );
