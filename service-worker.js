@@ -4,7 +4,7 @@ self.addEventListener('install', (event) => {
         caches.open('meu-pwa-cache').then((cache) => {
             return cache.addAll([
                 '/',
-                '/index.html',
+                'https://github.com/DiegoMarayo/Massa-Pizza/index.html',
                 '/styles.css',
                 '/script.js',
                 '/icone-192.png',
