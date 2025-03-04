@@ -4,7 +4,7 @@ self.addEventListener('install', (event) => {
         caches.open('meu-pwa-cache').then((cache) => {
             return cache.addAll([
                 '/',
-                'https://diegomarayo.github.io/service-worker.js',
+                '/index.html',
                 '/styles.css',
                 '/script.js',
                 '/icon-192.png',
